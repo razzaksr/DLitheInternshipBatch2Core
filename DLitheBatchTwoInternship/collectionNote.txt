@@ -1,0 +1,42 @@
+java.util
+
+advanced classes
+
+Collection framework:
+To overcome all the drawbacks in array:
+1. size specific
+2. type specific
+3. static/compile memory allocation
+4. operation over array is manual
+5. insecure i.e access value via index
+
+Features:
+1. 9 storage classes
+2. each storage classes may have exclusive methods to manipulate objects
+3. since dealing with objects it is dynamic memory/ heap
+4. generics <>
+   non generics <Class>
+
+10bits
+
+List:
+index, duplicates allowed, single dimention
+Stack
+LinkedList
+Vector>> synchronized, 10, 15
+ArrayList>> asynchronized, 10,20
+
+Set:
+index not allowed, duplicates not allowed, single dimention
+HashSet>> randomly
+TreeSet>> ascending
+
+Map:
+customize index, two dimention(key, value), duplicates not allowed in key but its okay in value
+HashMap>> asynchronized
+Hashtable>> synchronized, 11bits
+TreeMap
+
+iteration:
+looping
+Iterator
